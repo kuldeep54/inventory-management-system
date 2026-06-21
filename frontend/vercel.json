@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/((?!auth|products|customers|orders|health).*|$)",
+      "destination": "/index.html"
+    }
+  ]
+}
